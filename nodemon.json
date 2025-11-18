@@ -1,0 +1,6 @@
+{
+    "exeMap":{
+        "js": "node -r sucrase/register"
+    }
+
+}
