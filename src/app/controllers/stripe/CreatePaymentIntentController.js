@@ -1,9 +1,9 @@
 
 import Stripe from 'stripe';
 import * as Yup from 'yup';
-import  Chave  from '../../../config/strip.js';
+import  Strip from '../../../config/strip.js';
 
-const stripe = new Stripe(Chave.STRIPE_SECRET_KEY);
+const stripe = new Stripe(Strip.STRIPE_SECRET_KEY);
 
 const calculateOrderAmount = (items) => {
     const total = items.reduce((acc, current) => {
